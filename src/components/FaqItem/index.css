@@ -1,0 +1,44 @@
+.outerCard {
+  display: flex;
+  flex-direction: column;
+  border-width: 1px;
+  border-color: #d7dae6;
+  border-style: solid;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.innerCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+}
+
+.question {
+  font-size: 20px;
+  color: #52606d;
+}
+
+.image {
+  height: 20px;
+  align-self: center;
+}
+
+.answer {
+  color: #9aa5b1;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.button {
+  border-width: 0px;
+  background-color: transparent;
+}
+
+.line-style {
+  color: #9aa5b1;
+  margin: 15px;
+}
